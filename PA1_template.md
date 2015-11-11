@@ -1,6 +1,7 @@
 # Reproducible Research: Peer Assessment 1
 
 
+
 ## Loading and preprocessing the data
 
 
@@ -48,7 +49,6 @@ hist(dtStepsByDay$steps,
      col="blue", 
      col.main="black",
      col.lab="black", 
-     #breaks=20,
      xlab="Total Steps",
      main="Total Number of Steps Taken Each Day")
 ```
@@ -132,7 +132,6 @@ hist(dailyActivity$steps,
      col="blue",
      col.main="black",
      col.lab="black",
-     #breaks=20,
      xlab="Total Steps",
      main="Total Number of Steps Taken Each Day (Imputed)")
 ```
